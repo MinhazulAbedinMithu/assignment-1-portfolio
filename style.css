@@ -9,8 +9,20 @@ a{
 ul{
     list-style: none;
 }
+.button{
+    font-size: 20px;
+    color: #fff;
+    font-family: cursive;
+    padding: 10px 15px;
+    border: 2px solid #e00069;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #383ab6, #c2276f);
+}
 
-body{
+.full-width {
+    width: 100%;
+}
+.main-width {
     width: 1170px;
     margin: 0 auto;
 }
@@ -34,6 +46,8 @@ body{
 #intro, #about{
     height: 500px;
     width: 100%;
+    padding: 20px 0;
+    margin: 40px auto;
 }
 .intro-text, .intro-image, .about-image, .about-text{
     width: 50%;
@@ -43,16 +57,17 @@ body{
 .intro-image img, .about-image img{
     width: 550px;
 }
-.intro-text{
+.intro-text, .about-text{
     padding: 50px 0;
 }
-.intro-text h2{
+.intro-text h2, .about-text h2, .work-head h2{
     font-family: cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 80px;
     color: #1a1e4d;
+    text-transform: uppercase;
 }
 .intro-text h1{
     font-family: 'Roboto', sans-serif;
@@ -62,6 +77,74 @@ body{
     line-height: 80px;
     color: #e00069;
 }
-.intro-text p{
-    font-size: ;
+.intro-text p, .about-text p{
+    font-size: 25px;
+    padding: 20px 0;
 }
+
+#work {
+    height: 600px;
+}
+#work.full-width{
+    background-color: #eeeeee;
+}
+.work-head{
+    text-align: center;
+    padding: 40px 0;
+}
+.work-head h2 span{
+    color: #e00069
+}
+.work-item{
+    width: 28%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #8a898a;
+}
+.work-item img{
+    width: 100%;
+}
+.work-item h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 15px 0;
+    color: #363958
+}
+.work-item p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 10px 20px;
+}
+/*Chat part start*/
+.chat{
+    width: 906px;
+    height: 225px;
+    background-image: url(/images/chat_bg.png);
+    background-size: cover;
+    margin: 40px auto;
+    vertical-align: middle;
+    
+}
+.chat p{
+    float: left;
+    margin:90px 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.chat a{
+    float: right;
+    margin: 90px 10px;
+    text-transform: uppercase;
+}
+
