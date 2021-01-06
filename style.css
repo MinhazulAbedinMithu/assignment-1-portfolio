@@ -124,7 +124,7 @@ ul{
 .chat{
     width: 906px;
     height: 225px;
-    background-image: url('/images/chat_bg.png');
+    background-image: url('./images/chat_bg.png');
     background-size: cover;
     margin: 40px auto;
     vertical-align: middle;
